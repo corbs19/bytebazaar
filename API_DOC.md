@@ -3,6 +3,9 @@ API (Application Programming Interface) is a collection of rules and protocols t
 Endpoint Descriptions:
 URL
 - http://localhost/shopping%20cart/restapi.php
+
+
+  
 HTTP Method
 - GET, POST, DELETE
  Example Request/Response (JSON format).
@@ -12,6 +15,8 @@ HTTP Method
         "price": "129",
         "image": "razer_1.png"
     }
+
+  
 Error Handling:
 -	404 not found
 -	400 Bad Request
