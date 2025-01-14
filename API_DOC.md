@@ -1,4 +1,6 @@
 Overview:
+
+
 API (Application Programming Interface) is a collection of rules and protocols that allow one software application to interact with another. Connecting various software systems and facilitating them smooth collaboration are some of the goals of APIs. It alsoenables programmers to reuse pre-existing functionality rather than creating it from the ground up.
 Endpoint Descriptions:
 URL
@@ -8,6 +10,8 @@ URL
   
 HTTP Method
 - GET, POST, DELETE
+
+  
  Example Request/Response (JSON format).
  {
         "id": "1",
