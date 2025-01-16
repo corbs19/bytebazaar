@@ -2,22 +2,27 @@ Overview:
 
 
 API (Application Programming Interface) is a collection of rules and protocols that allow one software application to interact with another. Connecting various software systems and facilitating them smooth collaboration are some of the goals of APIs. It alsoenables programmers to reuse pre-existing functionality rather than creating it from the ground up.
+
 Endpoint Descriptions:
-URL
-- http://localhost/shopping%20cart/restapi.php
+URL: http://localhost/shopping%20cart/restapi.php
+HTTP Method: GET
+Required Parameters:
 
-
-  
-HTTP Method
-- GET, POST, DELETE
+Path: http://localhost/shopping%20cart/restapi.php/{id}
 
   
- Example Request/Response (JSON format).
- {
-        "id": "1",
+Example Request:
+  {
+        "id": 1,
         "name": "Razer BlackWidow V4 X",
-        "price": "129",
-        "image": "razer_1.png"
+        "price": "(input price)",
+      
+    }
+Example Response:
+ {
+        "id": 1,
+        "name": "Razer BlackWidow V4 X",
+        "price": "129"
     }
 
   
