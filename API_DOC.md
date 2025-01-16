@@ -19,10 +19,11 @@ Example Request:
    {
         "id": 1,
         "name": "Razer BlackWidow V4 X",
-        "price": "(input price)",
+        "price": "(input price)"
       
     }
 Example Response:
+
    {
         "id": 1,
         "name": "Razer BlackWidow V4 X",
