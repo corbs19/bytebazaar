@@ -16,6 +16,7 @@ Path: http://localhost/shopping%20cart/restapi.php/{id}
 
   
 Example Request:
+
    {
         "id": 1,
         "name": "Razer BlackWidow V4 X",
